@@ -8,6 +8,8 @@ The system supports login from a variety of roles:
 - Parents: register account allowed
 - Teacher: id and password given by the administrator
 
+![login screen](/blob/main/screenshot/plms_login.png)
+
 ## Main dashboard and summaries
 The dashboard shows several summary that are important and may be unique to roles.
 - Announcement: announcements as given by the school
