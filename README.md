@@ -1,5 +1,5 @@
 # Primary School Learning Management System (LMS)
-A learning management system designed to cater towards primary school students. A project done in 2020 to get PHP experiences.
+A learning management system designed to cater towards primary school students. A project done with a team in 2020 to obtain PHP knowledge.
 
 # Features
 ## Interactive and friendly login screen
@@ -18,3 +18,9 @@ The dashboard shows several summary that are important and may be unique to role
 - Assignments and exams: highlights current assignments and exams
 
 ![dashboard](screenshot/plms_main.png)
+
+## Courses, Timetables, Assessments
+Each category contains their specified resources.
+- Courses: contains every enrolled course, with viewing and sorting features
+- Timetable: contains the timetable for the students (specific course if for the teacher)
+- Assessments: contains quizzes, assignments and grades 
