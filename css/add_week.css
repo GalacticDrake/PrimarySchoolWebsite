@@ -1,0 +1,87 @@
+.week-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.week-done, .week-avail {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.week-avail:hover {
+    cursor: pointer;
+}
+
+.week-done {
+    color: var(--grey);
+}
+
+input:checked + .week-avail  {
+    background: var(--light-blue);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.status-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+.status-box div {
+    text-align: center;
+}
+
+.status-link {
+    margin: 10px 0;
+}
+
+.status-link a {
+    padding: 10px 0;
+    color: var(--grey);
+}
+
+/* Borrowed from modcss */
+.file-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: var(--grey);
+}
+
+.file-submission {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.submit-right {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.submit-right button {
+    border: solid 2px var(--darker-blue);
+    background: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--darker-blue);
+}
+
+.submit-right button[type="submit"] {
+    background: var(--darker-blue);
+    color: white;
+}
+

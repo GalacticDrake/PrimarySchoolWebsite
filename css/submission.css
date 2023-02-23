@@ -1,0 +1,137 @@
+.file-header-option {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.file-nav-title {
+    margin-bottom: 5px;
+}
+
+.file-box .file-flex {
+    flex-direction: column;
+}
+
+.file-desc {
+    background: var(--dark-blue);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.submit-detail {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.submit-detail .submit-left {
+    width: 150px;
+    color: var(--grey);
+}
+
+.submit-detail .submit-right {
+    display: block;
+    max-width: none;
+}
+
+.file-submission {
+    margin-top: 50px;
+}
+
+.file-options-box.teacher {
+    padding-bottom: 10px;
+}
+
+.delete-submission {
+    border-radius: 5px;
+    background: var(--pink);
+}
+
+.delete-submission button {
+    padding: 10px 0;
+}
+
+.options-label {
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.warning {
+    margin-bottom: 30px;
+}
+
+/* Add documents */
+.file-select {
+    background: var(--dark-blue);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+/* View uploaded documents */
+.view-box {
+    background: var(--lighter-blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.view-desc {
+    color: var(--grey);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.view-each {
+    margin: 15px 0;
+}
+
+.view-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.view-left {
+    width: 150px;
+    color: var(--grey);
+}
+
+.view-middle {
+    margin-right: 20px;
+    flex: 1 1 0px;
+}
+
+.green {
+    color: var(--green);
+}
+
+.red {
+    color: var(--red);
+}
+
+/* Remove */
+.remove-header {
+    padding: 0 0 15px 0;
+}
+
+.remove-subtitle {
+    color: var(--grey);
+}
+
+.remove-container {
+    padding: 10px 20px;
+}
+
+.week-avail {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}

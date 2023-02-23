@@ -1,0 +1,75 @@
+/* Container */
+.wrapper {
+    height: 100%;
+}
+
+.container-inner {
+    margin-left: 10px;
+    padding: 20px 20px;
+    background: var(--blue);
+    border-radius: 10px;
+    align-content: flex-start;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.profile-header {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.profile-header {
+    padding-bottom: 30px;
+}
+
+.tab-title {
+    font-size: 1.7rem;
+}
+
+.tabs-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+/* Left Sidenav */
+.sidetabs {
+    width: 100%;
+    padding: 20px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.sidetabs-title {
+    margin-bottom: 20px;
+}
+
+.quick-access {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-access li {
+    margin-bottom: 5px;
+}
+
+.quick-access a {
+    display: block;
+    padding: 8px 0 8px 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.quick-access .active {
+    background: var(--dark-pink);
+    border-radius: 5px;
+}
+
+.quick-access .active a {
+    color: black;
+}

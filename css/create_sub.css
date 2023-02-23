@@ -1,0 +1,19 @@
+.edit-sub {
+    margin-top: 40px;
+}
+
+.file-edit input.datepicker {
+    width: 60%;
+    margin-right: 10px;
+}
+
+.timepicker {
+    font-size: 1rem;
+    border: none;
+    background: transparent;
+    margin-right: 5px;
+}
+
+.timepicker:focus {
+    outline: none;
+}

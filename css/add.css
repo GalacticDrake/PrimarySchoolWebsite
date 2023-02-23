@@ -1,0 +1,88 @@
+/* Header link */
+.file-header-option {
+    margin-bottom: 20px;
+}
+
+.file-header-link {
+    display: inline-flex;
+}
+
+.file-header-link span {
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+/* Main */
+input[type="file"], input[type="checkbox"] {
+    display: none;
+}
+
+.fileupload {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    border: dashed 4px var(--light-blue);
+    background: none;
+    font-size: 1.2rem;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 300px;
+}
+
+.file-header-desc {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--grey);
+}
+
+.file-desc {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.link-edit {
+    width: 100%;
+}
+
+.linkupload {
+    width: 150px;
+    display: block;
+    line-height: 30px;
+    float: left;
+}
+
+input[type="text"] {
+    width: calc(100% - 150px);
+    box-sizing: border-box;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 641px) {
+    .fileupload {
+        height: 100px;
+        font-size: 1.1rem;
+    }
+
+    .linkupload, input[type="text"] {
+        width: 100%;
+    }
+
+    .file-header-desc {
+        margin-top: 10px;
+    }
+}

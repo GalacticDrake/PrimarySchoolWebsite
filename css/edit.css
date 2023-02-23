@@ -1,0 +1,60 @@
+.file-desc {
+    display: block;
+}
+
+.file-edit {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.edit-label {
+    width: 150px;
+    display: block;
+    float: left;
+    line-height: 30px;
+}
+
+.file-edit input[type="text"] {
+    width: calc(100% - 150px);
+    box-sizing: border-box;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+
+.file-edit textarea {
+    box-sizing: border-box;
+    resize: none;
+    width: 100%;
+    height: 150px;
+    background: none;
+    border-color: black;
+    margin-top: 10px;
+}
+
+.file-edit input[type="text"],
+.file-edit textarea {
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 0;
+}
+
+.file-edit input[type="text"]:focus, 
+.file-edit textarea:focus {
+    outline: none;
+}
+
+.warn-label {
+    background: var(--dark-pink);
+}
+
+.d-desc {
+    color: var(--darker-pink);
+    height: 20px;
+}
+
+.file-edit input.timepicker-input {
+    width: 50px;
+}

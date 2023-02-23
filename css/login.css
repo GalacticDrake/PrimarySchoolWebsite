@@ -1,0 +1,258 @@
+body {
+    background-image: url("../image/loginbgwrap.jpg");
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+.outer {
+    margin-top: 100px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 165, 27);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 3rem 8%;
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+}
+
+.outer-nav {
+    text-align: center;
+    margin: 0 0 5% 0;
+}
+
+.nav-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav label {
+    margin: 0 2%;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(169, 221, 178);
+    color: rgb(0, 82, 14);
+    border-radius: 5px;
+}
+
+nav label.active {
+    background: rgb(0, 165, 27);
+    color: rgb(255, 255, 255);
+}
+
+nav label:hover {
+    cursor: pointer;
+}
+
+nav input[type="radio"] {
+    display: none;
+}
+
+.sub-container {
+    margin-bottom: 1rem;
+}
+
+.subtitle, .register {
+    text-align: center;
+}
+
+form {
+    margin: 5% 0;
+}
+
+/* Error Form */
+
+.form {
+    text-align: center;
+    padding: 0 0 2rem 0;
+}
+
+.err-login, .err-login:visited {
+    color: rgb(0, 165, 27);
+    text-decoration: none;
+}
+
+/* End */
+
+.login-info {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login-info input {
+    width: calc(100% - 60px);
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: solid 1px rgb(180, 180, 180);
+    border-radius: 0;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    height: 40px;
+    padding: 5px 30px;
+    width: calc(100% - 60px);
+    z-index: 1;
+    transition-duration: 0.4s;
+    color: rgb(120, 120, 120);
+}
+
+.login-info input:focus {
+    outline: 0;
+    border-bottom: solid 3px rgb(0, 165, 27);
+    margin-bottom: -2px;
+}
+
+.login-info input:focus + .label {
+    color: rgb(0, 165, 27);
+}
+
+.label-large {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.label-tiny {
+    font-size: 12px;
+    line-height: 0; 
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.submit button {
+    padding: 1rem;
+    border-radius: 50px;
+    appearance: none;
+    border: none;
+    background: rgb(0, 165, 27);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.4s ease-in-out;
+}
+
+.submit button:hover {
+    background: rgb(0, 182, 30);
+    box-shadow: 0 5px 2px 0 rgba(0, 182, 30, 0.2);
+    cursor: pointer;
+}
+
+.register a, .inner-footer-link {
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+
+.container-footer {
+    text-align: center;
+}
+
+.container-footer div {
+    margin-bottom: 5px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+/* Responsive */
+@media screen and (max-width: 641px) {
+    .outer {
+        width: 100%;
+        margin: 50px 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 8%;
+    }
+
+    nav {
+        align-items: center;
+    }
+
+    nav label {
+        margin: 0 5px;
+        width: 100px;
+    }
+
+    .login-info {
+        width: 100%;
+    }
+
+    .submit button {
+        padding: 10px 12px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        margin-bottom: 10%;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    .login-info input, .label-large {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        margin: 20px auto;
+        max-width: 1000px;
+        box-sizing: border-box;
+    }
+}

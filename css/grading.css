@@ -1,0 +1,201 @@
+/* Container */
+.wrapper {
+    height: 100%;
+}
+
+.container-inner {
+    margin-left: 10px;
+    padding: 20px 20px;
+    background: var(--blue);
+    border-radius: 10px;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.assessment-header, .tabs {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.assignment-header {
+    position: relative;
+}
+
+.tab-thumbnail {
+    padding-bottom: 20px;
+}
+
+.tab-title {
+    font-size: 1.7rem;
+}
+
+.tabs-header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+
+.tabs-header div {
+    margin-right: 20px;
+}
+
+.tabs-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tabs-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    margin: 0 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.edit-option {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.tabs-thumbnail {
+    width: 70%;
+    height: 15px;
+    border-radius: 50px;
+   /* z-index: 2;
+    padding: 0 5px;
+    position: relative;*/
+    background: var(--dark-blue);
+    border-width: 2px;
+    border-color: var(--darker-blue);
+    box-sizing: border-box;
+}
+
+.grades {
+    background: var(--light-grey);
+    width: 70%;
+    height: 15px;
+    border-radius: 50px;
+    z-index: 2;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.grades-bar {
+    background: var(--dark-blue);
+    position: absolute;
+    height: 9px;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    border-radius: 50px;
+}
+
+.student-title {
+    font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+.grades-value {
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+.tab-subtitle {
+    font-size: 0.8rem;
+    color: var(--grey);
+    margin-top: 10px;
+}
+
+/* Left Sidenav */
+.sidetabs {
+    width: 100%;
+    padding: 20px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.sidetabs-title {
+    margin-bottom: 20px;
+}
+
+.sidetabs select {
+    width: calc(100% - 40px);
+    background: var(--dark-pink);
+    border: none;
+    padding: 8px 20px;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.quick-access {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-access li {
+    margin-bottom: 5px;
+}
+
+.quick-access a {
+    display: block;
+    padding: 8px 0 8px 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.quick-access .active {
+    background: var(--dark-pink);
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background: var(--dark-pink);
+    width: 100%;
+    height: 15px;
+    border-radius: 50px;
+    z-index: 2;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.progress {
+    background: var(--pink);
+    position: absolute;
+    height: 9px;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    border-radius: 50px;
+}
+
+.progress-value {
+    margin-top: 5px;
+    text-align: right;
+    color: var(--darker-pink);
+}
+
+.sidetabs select:focus {
+    outline: 0;
+}
+
+@media screen and (max-width: 641px) {
+    .tabs {
+        width: 100%;
+    }
+
+    .container-inner {
+        margin: 0;
+    }
+}

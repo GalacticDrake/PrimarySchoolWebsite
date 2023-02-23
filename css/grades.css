@@ -1,0 +1,198 @@
+/* Container */
+.wrapper {
+    height: 100%;
+}
+
+.container-inner {
+    margin-left: 10px;
+    padding: 20px 20px;
+    background: var(--blue);
+    border-radius: 10px;
+    align-content: flex-start;
+    box-sizing: border-box;
+}
+
+.grades-header, .tabs {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.grades-header {
+    position: relative;
+    font-size: 1.7rem;
+}
+
+.inner-tabs-grid {
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--dark-blue);
+    margin: 10px;
+}
+
+.container-grades {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-title {
+    font-size: 1.7rem;
+
+}
+
+.course-title {
+    font-size: 1rem;
+}
+
+.tabs-header-grid {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 1.7rem;
+}
+
+.tabs-grades {
+    position: absolute;
+    right: 0;
+}
+
+.tabs-container-grid {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.tabs-option-grid {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    justify-content: center;
+    margin: 0 10px;
+    justify-content: center;
+}
+
+.tabs-thumbnail {
+    height: 100px;
+    width: 80px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marks {
+    font-size: 1.7rem;
+}
+
+.child-marks {
+    font-size: 0.9rem;
+    margin: 5px;
+
+}
+
+.tabs-child {
+    padding: 5px;
+}
+
+.tabs-option-title {
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+.tab-subtitle {
+    font-size: 0.8rem;
+    color: var(--grey);
+    margin-top: 10px;
+}
+
+/* Left Sidenav */
+.sidetabs {
+    width: 100%;
+    padding: 20px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.sidetabs-title {
+    margin-bottom: 20px;
+}
+
+.sidetabs select {
+    width: 100%;
+    background: var(--dark-pink);
+    border: none;
+    padding: 8px 20px;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.progress-bar {
+    background: var(--dark-pink);
+    width: 100%;
+    height: 15px;
+    border-radius: 50px;
+    z-index: 2;
+    padding: 0 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.progress {
+    background: var(--pink);
+    position: absolute;
+    height: 9px;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    border-radius: 50px;
+}
+
+.progress-value {
+    margin-top: 5px;
+    text-align: right;
+    color: var(--darker-pink);
+}
+
+.sidetabs select:focus {
+    outline: 0;
+}
+
+.quick-access {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quick-access li {
+    margin-bottom: 5px;
+}
+
+.quick-access a {
+    display: block;
+    padding: 8px 0 8px 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.quick-access .active {
+    background: var(--dark-pink);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 641px) {
+    .tabs-grid {
+        width: 100%;
+    }
+
+    .container-inner-grid {
+        margin: 0;
+    }
+}

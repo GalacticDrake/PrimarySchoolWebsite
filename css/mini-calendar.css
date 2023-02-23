@@ -1,0 +1,88 @@
+.mini-calendar {
+    padding: 0 10px;
+    min-height: 220px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-btn {
+    border: 0;
+    background: transparent;
+    height: 30px;
+}
+
+.calendar-btn:hover {
+    cursor: pointer;
+}
+
+.calendar-btn span {
+    line-height: 30px;
+}
+
+.month-title {
+    width: 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* calendar */
+.mini-calendar-container {
+    min-height: 196px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.mini-table thead th {
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mini-table tbody tr td {
+    text-align: center;
+}
+
+.today {
+    background: var(--dark-pink);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.time-selector-form {
+    background: var(--dark-pink);
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.time-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.time-wrapper {
+    display: flex;
+}
+
+.time-selector {
+    background: var(--dark-pink);
+    border: none;
+    width: 50%;
+    margin: 0 5px;
+    height: 30px;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.time-selector:focus {
+    outline: 0;
+}
+

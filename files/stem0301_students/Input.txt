@@ -1,0 +1,9 @@
+int main()
+{
+    int x, y;
+    if (x < y)
+         printf("x is less than y");
+    else 
+         y=5; /* Assign value of 5 to y */
+    return 0;
+}

@@ -1,0 +1,94 @@
+/* Container */
+.wrapper {
+    height: 100%;
+}
+
+.container-inner {
+    margin-left: 10px;
+    height: auto;
+    justify-content: left;
+    align-content: flex-start;
+}
+
+.tabs {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--blue);
+    border-radius: 10px;
+}
+
+.tabs-grid {
+    align-items: center;
+    margin: 10px 10px;
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.tabs-list {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 10px 50px;
+    margin: 5px 0;
+}
+
+.inner-tabs {
+    height: 100%;
+    padding: 20px;
+}
+
+    /* Test */
+    .tab-thumbnail {
+        padding-bottom: 20px;
+    }
+
+.tab-subtitle {
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+
+.tabs-grid .tab-subtitle {
+    text-align: center;
+}
+
+/* Left Sidenav */
+.sidetabs {
+    width: 100%;
+    padding: 20px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.sidetabs-title {
+    margin-bottom: 10px;
+}
+
+.sidetabs select {
+    width: 100%;
+    background: var(--dark-pink);
+    border: none;
+    padding: 8px 20px;
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.sidetabs select:focus {
+    outline: 0;
+}
+
+@media screen and (max-width: 641px) {
+    .tabs-grid {
+        width: calc(50% - 20px);
+    }
+
+    .tabs-list {
+        padding: 5px 0 10px 20px;
+    }
+
+    .container-inner {
+        margin: 0;
+    }
+}

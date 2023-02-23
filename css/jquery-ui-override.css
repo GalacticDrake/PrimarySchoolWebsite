@@ -1,0 +1,25 @@
+/* Slider Thumb */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border-radius: 50px;
+    background: var(--darker-pink);
+    border: 0;
+    
+}
+
+/* Slider bar */
+.ui-slider .ui-slider-handle {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.ui-widget-header {
+    background: var(--dark-pink);
+}
+
+.ui-widget.ui-widget-content {
+    border: 0;
+}
+
+.ui-slider-horizontal {
+    height: 0.5rem;
+}
