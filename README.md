@@ -16,3 +16,5 @@ The dashboard shows several summary that are important and may be unique to role
 - Inbox: personal notifications unique to role
 - Courses: quick access to courses
 - Assignments and exams: highlights current assignments and exams
+
+![dashboard](screenshot/plms_main.png)
